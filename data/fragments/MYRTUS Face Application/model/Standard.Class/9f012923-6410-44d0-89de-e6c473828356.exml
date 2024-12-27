@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TRequirement» host" version="4">
+  <OBJECT>
+    <ID name="«TRequirement» host" mc="Standard.Class" uid="9f012923-6410-44d0-89de-e6c473828356"/>
+    <PID name="MyrtusCameraFeed_0" mc="Standard.Class" uid="cd31242a-7adf-43a3-b5ed-7487adea0d0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[«TRequirement» host]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="f0ddd3c2-c7ec-4156-84b0-d31b76098b17"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

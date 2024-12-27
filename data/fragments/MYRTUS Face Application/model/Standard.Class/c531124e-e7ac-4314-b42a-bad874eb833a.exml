@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TRequirement» egress2" version="4">
+  <OBJECT>
+    <ID name="«TRequirement» egress2" mc="Standard.Class" uid="c531124e-e7ac-4314-b42a-bad874eb833a"/>
+    <PID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[«TRequirement» egress2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="2a38f650-7f59-41a7-a928-ac9cbe326f84"/>
+        <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="f0ddd3c2-c7ec-4156-84b0-d31b76098b17"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

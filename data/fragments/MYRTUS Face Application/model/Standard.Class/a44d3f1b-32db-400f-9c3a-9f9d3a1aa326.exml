@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MyrtusSWComponent" version="4">
+  <OBJECT>
+    <ID name="MyrtusSWComponent" mc="Standard.Class" uid="a44d3f1b-32db-400f-9c3a-9f9d3a1aa326"/>
+    <PID name="example.eu.myrtus.nodetypes" mc="Standard.Package" uid="85ffab8c-4959-4a0c-b910-30833aa0b14a"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MyrtusSWComponent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="dockerImage" mc="Standard.Attribute" uid="ee7c81f1-0bbf-4f5f-95b5-10ccd8e3aec7"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[dockerImage]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="PropertiesDefinitionType" mc="Infrastructure.Stereotype" uid="7ecb11d2-75ea-4784-a37c-8b9bf860e0c5"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="port" mc="Standard.Attribute" uid="76f09af8-2c63-4734-a609-d5351b68fe25"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="PropertiesDefinitionType" mc="Infrastructure.Stereotype" uid="7ecb11d2-75ea-4784-a37c-8b9bf860e0c5"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="«TRequirementDefinition» connects" mc="Standard.Class" uid="47705645-5534-4954-b5ca-3daad6e842d1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
+      </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="fecd81a5-da41-4a07-a507-6bfaf5bbadd2" mc="Infrastructure.TypedPropertyTable" uid="484535f5-e360-4fb6-bf32-6c62715637ea"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[fecd81a5-da41-4a07-a507-6bfaf5bbadd2]]></ATT>
+            <ATT name="Content"><![CDATA[#Tue Aug 06 23:33:12 CEST 2024
+targetNamespace=example.eu.myrtus.nodetypes
+derivedFrom=tosca.nodes.SoftwareComponent
+abstract=true
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TEntityTypePropertyTable" mc="Infrastructure.PropertyTableDefinition" uid="e8f30f06-d953-4192-a783-d2a57c96564c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

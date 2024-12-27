@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TArtifactTemplate» nginx.conf" version="4">
+  <OBJECT>
+    <ID name="«TArtifactTemplate» nginx.conf" mc="Standard.Class" uid="539e739e-c1f3-4d05-9b2e-8732eee2073a"/>
+    <PID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[«TArtifactTemplate» nginx.conf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TArtifactTemplate" mc="Infrastructure.Stereotype" uid="1d06ae6d-75d2-4000-b80d-44d93145c847"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

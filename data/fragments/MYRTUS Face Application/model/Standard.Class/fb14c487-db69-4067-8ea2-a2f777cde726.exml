@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Myrtus_Workstation_1" version="4">
+  <OBJECT>
+    <ID name="Myrtus_Workstation_1" mc="Standard.Class" uid="fb14c487-db69-4067-8ea2-a2f777cde726"/>
+    <PID name="Face_Application" mc="Standard.Class" uid="72c82f33-5224-4c77-88d6-3268f4793747"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Myrtus_Workstation_1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

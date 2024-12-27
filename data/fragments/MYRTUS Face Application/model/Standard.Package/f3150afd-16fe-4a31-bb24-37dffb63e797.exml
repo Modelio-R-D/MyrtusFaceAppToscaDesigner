@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MYRTUS_FaceApplication" version="4">
+  <OBJECT>
+    <ID name="MYRTUS_FaceApplication" mc="Standard.Package" uid="f3150afd-16fe-4a31-bb24-37dffb63e797"/>
+    <PID name="MYRTUS Face Application" mc="Standard.Project" uid="652ce459-8dae-4387-b97f-54c796a383b7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MYRTUS_FaceApplication]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Tosca Model" mc="Standard.Package" uid="85ffab8c-4959-4a0c-b910-30833aa0b14a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

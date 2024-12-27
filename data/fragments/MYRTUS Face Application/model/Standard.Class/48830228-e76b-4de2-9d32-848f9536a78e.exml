@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FaceApplication" version="4">
+  <OBJECT>
+    <ID name="FaceApplication" mc="Standard.Class" uid="48830228-e76b-4de2-9d32-848f9536a78e"/>
+    <PID name="example.eu.myrtus.nodetypes" mc="Standard.Package" uid="85ffab8c-4959-4a0c-b910-30833aa0b14a"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[FaceApplication]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TServiceTemplate" mc="Infrastructure.Stereotype" uid="09682faf-27b8-4c4b-a5e6-22fe18303161"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

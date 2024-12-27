@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TRequirement» host" version="4">
+  <OBJECT>
+    <ID name="«TRequirement» host" mc="Standard.Class" uid="5723d02a-9444-4181-add4-48a3f730e24e"/>
+    <PID name="MyrtusFaceDetectionService_0" mc="Standard.Class" uid="4a230442-6e6c-446e-8311-836b3f96fcab"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[«TRequirement» host]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="2a38f650-7f59-41a7-a928-ac9cbe326f84"/>
+        <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="f0ddd3c2-c7ec-4156-84b0-d31b76098b17"/>
+      </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="2a38f650-7f59-41a7-a928-ac9cbe326f84" mc="Infrastructure.TypedPropertyTable" uid="7749f1ac-5a93-4963-a269-1227c1d34185"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[2a38f650-7f59-41a7-a928-ac9cbe326f84]]></ATT>
+            <ATT name="Content"><![CDATA[#Mon Aug 19 11:17:59 CEST 2024
+name=host
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TRequirementTable" mc="Infrastructure.PropertyTableDefinition" uid="71e7e220-c92c-4111-ae73-3ed042a41c06"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

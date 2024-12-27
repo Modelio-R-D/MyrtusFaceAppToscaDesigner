@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Myrtus_Proxy_0" version="4">
+  <OBJECT>
+    <ID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+    <PID name="Face_Application" mc="Standard.Class" uid="72c82f33-5224-4c77-88d6-3268f4793747"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Myrtus_Proxy_0]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="dockerImage" mc="Standard.Attribute" uid="eb1f3889-358c-4993-a8ae-72ef9023b29f"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[nginx:alpine]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[dockerImage]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="port" mc="Standard.Attribute" uid="c506c3d8-cf91-42f4-95cc-1f10290bf916"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[443]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="«TRelationshipTemplate» hostedOn" mc="Standard.AssociationEnd" uid="5929e90a-c598-473e-82eb-0a9c371f9b51"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">VisibilityUndefined</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[«TRelationshipTemplate» hostedOn]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Myrtus_Workstation_1" mc="Standard.Class" uid="fb14c487-db69-4067-8ea2-a2f777cde726"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="e2df2b54-ba42-4c3f-af3a-fe46b5243bd0"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"></ATT>
+                  <ATT name="MultiplicityMax"></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="«TRelationshipTemplate» hostedOn" mc="Standard.AssociationEnd" uid="5929e90a-c598-473e-82eb-0a9c371f9b51"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="hostedOn" mc="Standard.Association" uid="ddb4a88e-679c-4305-bd5b-abf7a277f184"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[hostedOn]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="TRelationshipTemplate" mc="Infrastructure.Stereotype" uid="7f01001b-511e-4017-b6b4-729f68c85911"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="hostedOn" mc="Standard.Association" uid="ddb4a88e-679c-4305-bd5b-abf7a277f184"/>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="«TRelationshipTemplate» connectsTo1" mc="Standard.AssociationEnd" uid="4067840c-1d51-4f55-bbc7-36bdbd36bfb7"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">VisibilityUndefined</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[«TRelationshipTemplate» connectsTo1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="MyrtusFaceDetectionService_0" mc="Standard.Class" uid="4a230442-6e6c-446e-8311-836b3f96fcab"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="0fa6f978-d662-486e-a334-6924146a53e5"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"></ATT>
+                  <ATT name="MultiplicityMax"></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="«TRelationshipTemplate» connectsTo1" mc="Standard.AssociationEnd" uid="4067840c-1d51-4f55-bbc7-36bdbd36bfb7"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="connectsOn" mc="Standard.Association" uid="85966c06-93f9-4b8a-a5f0-2614840b730e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[connectsOn]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="TRelationshipTemplate" mc="Infrastructure.Stereotype" uid="7f01001b-511e-4017-b6b4-729f68c85911"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="connectsOn" mc="Standard.Association" uid="85966c06-93f9-4b8a-a5f0-2614840b730e"/>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="«TRelationshipTemplate» connectsTo2" mc="Standard.AssociationEnd" uid="1e1816e0-e744-4b19-a55f-cf95062bf992"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">VisibilityUndefined</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[«TRelationshipTemplate» connectsTo2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="MyrtusCameraFeed_0" mc="Standard.Class" uid="cd31242a-7adf-43a3-b5ed-7487adea0d0b"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="706c4083-ed67-4292-b0bc-3c0160971951"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"></ATT>
+                  <ATT name="MultiplicityMax"></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="«TRelationshipTemplate» connectsTo2" mc="Standard.AssociationEnd" uid="1e1816e0-e744-4b19-a55f-cf95062bf992"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="connectsOn" mc="Standard.Association" uid="e9a9020a-7dfd-48f8-8455-ca20624b26ae"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[connectsOn]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="TRelationshipTemplate" mc="Infrastructure.Stereotype" uid="7f01001b-511e-4017-b6b4-729f68c85911"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="connectsOn" mc="Standard.Association" uid="e9a9020a-7dfd-48f8-8455-ca20624b26ae"/>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="«TRequirement» host" mc="Standard.Class" uid="ad4be350-914f-4b5e-8c8d-c50492ff4436"/>
+        <COMPID name="«TRequirement» egress1" mc="Standard.Class" uid="abababd0-6ccf-4a9c-9d01-705a331c8d28"/>
+        <COMPID name="«TRequirement» egress2" mc="Standard.Class" uid="c531124e-e7ac-4314-b42a-bad874eb833a"/>
+        <COMPID name="«TArtifactTemplate» nginx.conf" mc="Standard.Class" uid="539e739e-c1f3-4d05-9b2e-8732eee2073a"/>
+        <COMPID name="«TArtifactTemplate» fullchain.pem" mc="Standard.Class" uid="a9458279-bf2c-4d24-9072-ad2bf8d0b421"/>
+        <COMPID name="«TArtifactTemplate» key" mc="Standard.Class" uid="7a945c78-4800-4368-afdc-6508011f3fc1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

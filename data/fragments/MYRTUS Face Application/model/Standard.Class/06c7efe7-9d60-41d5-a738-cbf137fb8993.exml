@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MyrtusFaceDetectionService" version="4">
+  <OBJECT>
+    <ID name="MyrtusFaceDetectionService" mc="Standard.Class" uid="06c7efe7-9d60-41d5-a738-cbf137fb8993"/>
+    <PID name="example.eu.myrtus.nodetypes" mc="Standard.Package" uid="85ffab8c-4959-4a0c-b910-30833aa0b14a"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MyrtusFaceDetectionService]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="«TCapabilityDefinition» FaceDetectionService" mc="Standard.Class" uid="6d331bbc-272a-444e-8c75-6450bbec09bf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
+      </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="fecd81a5-da41-4a07-a507-6bfaf5bbadd2" mc="Infrastructure.TypedPropertyTable" uid="32d2bcf6-7ae0-4a3d-a68d-e166714b0d19"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[fecd81a5-da41-4a07-a507-6bfaf5bbadd2]]></ATT>
+            <ATT name="Content"><![CDATA[#Tue Aug 06 23:14:03 CEST 2024
+targetNamespace=example.eu.myrtus.nodetypes
+derivedFrom=example.eu.myrtus.nodetypes.MyrtusSWComponent
+final=false
+abstract=false
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TEntityTypePropertyTable" mc="Infrastructure.PropertyTableDefinition" uid="e8f30f06-d953-4192-a783-d2a57c96564c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

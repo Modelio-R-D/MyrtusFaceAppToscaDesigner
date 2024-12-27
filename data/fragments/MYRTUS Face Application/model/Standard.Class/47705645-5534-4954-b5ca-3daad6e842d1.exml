@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TRequirementDefinition» connects" version="4">
+  <OBJECT>
+    <ID name="«TRequirementDefinition» connects" mc="Standard.Class" uid="47705645-5534-4954-b5ca-3daad6e842d1"/>
+    <PID name="MyrtusSWComponent" mc="Standard.Class" uid="a44d3f1b-32db-400f-9c3a-9f9d3a1aa326"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[«TRequirementDefinition» connects]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TRequirementDefinition" mc="Infrastructure.Stereotype" uid="2637c4bd-ca93-4012-82ea-8ef2ba5ca444"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

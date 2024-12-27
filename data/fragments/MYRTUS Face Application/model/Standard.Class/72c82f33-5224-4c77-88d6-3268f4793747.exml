@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Face_Application" version="4">
+  <OBJECT>
+    <ID name="Face_Application" mc="Standard.Class" uid="72c82f33-5224-4c77-88d6-3268f4793747"/>
+    <PID name="example.eu.myrtus.nodetypes" mc="Standard.Package" uid="85ffab8c-4959-4a0c-b910-30833aa0b14a"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Face_Application]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Myrtus_Workstation_1" mc="Standard.Class" uid="fb14c487-db69-4067-8ea2-a2f777cde726"/>
+        <COMPID name="MyrtusFaceDetectionService_0" mc="Standard.Class" uid="4a230442-6e6c-446e-8311-836b3f96fcab"/>
+        <COMPID name="MyrtusCameraFeed_0" mc="Standard.Class" uid="cd31242a-7adf-43a3-b5ed-7487adea0d0b"/>
+        <COMPID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TTopologyTemplate" mc="Infrastructure.Stereotype" uid="a52f433c-cf19-4033-99c2-81b4af708744"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

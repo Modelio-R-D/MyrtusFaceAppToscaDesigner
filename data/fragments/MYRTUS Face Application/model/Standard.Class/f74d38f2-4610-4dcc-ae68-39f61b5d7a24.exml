@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Myrtus-Workstation" version="4">
+  <OBJECT>
+    <ID name="Myrtus-Workstation" mc="Standard.Class" uid="f74d38f2-4610-4dcc-ae68-39f61b5d7a24"/>
+    <PID name="example.eu.myrtus.nodetypes" mc="Standard.Package" uid="85ffab8c-4959-4a0c-b910-30833aa0b14a"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Myrtus-Workstation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
+      </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="fecd81a5-da41-4a07-a507-6bfaf5bbadd2" mc="Infrastructure.TypedPropertyTable" uid="5648fdcd-9b31-45cb-814f-807436a9fc31"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[fecd81a5-da41-4a07-a507-6bfaf5bbadd2]]></ATT>
+            <ATT name="Content"><![CDATA[#Fri Aug 02 12:36:22 CEST 2024
+targetNamespace=example.eu.myrtus.nodetypes
+derivedFrom=tosca.nodes.Compute
+final=false
+abstract=false
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TEntityTypePropertyTable" mc="Infrastructure.PropertyTableDefinition" uid="e8f30f06-d953-4192-a783-d2a57c96564c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

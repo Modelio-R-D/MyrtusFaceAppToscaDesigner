@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TRequirementRefTable" version="4">
+  <OBJECT>
+    <ID name="TRequirementRefTable" mc="Infrastructure.PropertyTableDefinition" uid="6fdc6802-4b1d-472a-8f14-5129aa46620c"/>
+    <PID name="TRequirementRef" mc="Infrastructure.Stereotype" uid="179fadf7-b82d-47bc-ae58-40df62e045ed"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TRequirementRefTable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="name" mc="Infrastructure.PropertyDefinition" uid="100afbca-9f3b-49e3-ac91-f1465edc6002"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[name]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="a627fd96-a1fa-4717-8c6b-5319b94809e8"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TRequirementRefTable.name.description]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ref" mc="Infrastructure.PropertyDefinition" uid="d9c4cff9-b58a-410a-9b68-f76a8879a37f"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[ref]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="ea4f5323-bf84-410b-b9b8-1c4c30d31772"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TRequirementRefTable.ref.description]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

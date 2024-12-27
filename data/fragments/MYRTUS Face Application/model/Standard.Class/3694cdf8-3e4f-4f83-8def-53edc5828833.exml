@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TCapabilityDefinition» WebService" version="4">
+  <OBJECT>
+    <ID name="«TCapabilityDefinition» WebService" mc="Standard.Class" uid="3694cdf8-3e4f-4f83-8def-53edc5828833"/>
+    <PID name="MyrtusProxy" mc="Standard.Class" uid="0aaad610-2b13-47db-aed2-9054b0059f0d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[«TCapabilityDefinition» WebService]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TCapabilityDefinition" mc="Infrastructure.Stereotype" uid="92f8cb40-9498-4759-9c75-6b4df72de355"/>
+      </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="92f8cb40-9498-4759-9c75-6b4df72de355" mc="Infrastructure.TypedPropertyTable" uid="2c2b1d74-1200-4cd3-823d-cddd5e284dad"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[92f8cb40-9498-4759-9c75-6b4df72de355]]></ATT>
+            <ATT name="Content"><![CDATA[#Sat Aug 17 18:24:46 CEST 2024
+upperBound=-1
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TCapabilityDefinitionTable" mc="Infrastructure.PropertyTableDefinition" uid="e2b2d181-f6b2-4a51-81dc-df962e137ef2"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
