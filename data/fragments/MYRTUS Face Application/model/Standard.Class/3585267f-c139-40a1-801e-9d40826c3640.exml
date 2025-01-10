@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TCapabilityDefinition» WebService" version="4">
   <OBJECT>
     <ID name="«TCapabilityDefinition» WebService" mc="Standard.Class" uid="3585267f-c139-40a1-801e-9d40826c3640"/>
-    <PID name="MyrtusCameraFeed" mc="Standard.Class" uid="bb6ce0c1-fc47-47cc-adb3-98f42dca729e"/>
+    <PID name="Capabilities" mc="Standard.Class" uid="82ff99f1-7abf-4249-bd29-abb734b5df66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

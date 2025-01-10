@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tosca.nodes.Compute" version="4">
   <OBJECT>
     <ID name="tosca.nodes.Compute" mc="Standard.Class" uid="f90c3946-72fd-44db-9c67-231c9c4a465a"/>
-    <PID name="Tosca" mc="Standard.Package" uid="f675667d-7178-48bc-a561-a64fef26e55c"/>
+    <PID name="Tosca mini standard library" mc="Standard.Package" uid="f675667d-7178-48bc-a561-a64fef26e55c"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -15,6 +15,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Capabilities" mc="Standard.Class" uid="d77f1e19-443f-47e9-a8ec-18255768748e"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
       </LINK>

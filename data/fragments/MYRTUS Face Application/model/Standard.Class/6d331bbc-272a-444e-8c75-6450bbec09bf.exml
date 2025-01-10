@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TCapabilityDefinition» FaceDetectionService" version="4">
   <OBJECT>
     <ID name="«TCapabilityDefinition» FaceDetectionService" mc="Standard.Class" uid="6d331bbc-272a-444e-8c75-6450bbec09bf"/>
-    <PID name="MyrtusFaceDetectionService" mc="Standard.Class" uid="06c7efe7-9d60-41d5-a738-cbf137fb8993"/>
+    <PID name="Capabilities" mc="Standard.Class" uid="acb551d1-ff11-4cf8-ab39-504d06491ac9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

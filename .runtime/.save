@@ -1,7 +1,5 @@
-#Mon Jan 06 12:12:49 GMT-05:00 2025
-org.modelio.app.diagram.editor.OpenedDiagrams0='ToscaModelDiagram' {70f10033-7bec-4aab-8d9c-72ba2f991258} Standard.StaticDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams1='ServiceTemplateDiagram' {584b89b9-a2bd-4e67-a0fa-183dddecb2ff} Standard.StaticDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Topology Template Diagram' {abceb527-8a53-4560-bf24-de6850d69dad} Standard.StaticDiagram
+#Thu Jan 09 19:18:26 GMT-05:00 2025
+org.modelio.app.diagram.editor.OpenedDiagrams0='Service Template diagram' {be97f389-4baa-458a-9391-737378a37fd8} Standard.StaticDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.com.modeliosoft.modelio.archimate.perspective.parentId=archimate.ui.partstack.bottom
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom

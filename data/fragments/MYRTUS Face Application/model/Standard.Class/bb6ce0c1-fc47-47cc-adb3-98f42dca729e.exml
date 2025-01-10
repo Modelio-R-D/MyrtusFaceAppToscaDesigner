@@ -16,8 +16,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="«TRequirementDefinition» faceDetectionService" mc="Standard.Class" uid="0b371eac-71e1-445c-b67b-9f81bb6f17c9"/>
-        <COMPID name="«TCapabilityDefinition» WebService" mc="Standard.Class" uid="3585267f-c139-40a1-801e-9d40826c3640"/>
+        <COMPID name="Requirements" mc="Standard.Class" uid="36a08b77-307e-4351-9419-7803c096b037"/>
+        <COMPID name="Capabilities" mc="Standard.Class" uid="82ff99f1-7abf-4249-bd29-abb734b5df66"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>

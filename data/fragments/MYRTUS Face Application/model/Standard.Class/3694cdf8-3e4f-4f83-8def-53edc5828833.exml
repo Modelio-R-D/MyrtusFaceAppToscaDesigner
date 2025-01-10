@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TCapabilityDefinition» WebService" version="4">
   <OBJECT>
     <ID name="«TCapabilityDefinition» WebService" mc="Standard.Class" uid="3694cdf8-3e4f-4f83-8def-53edc5828833"/>
-    <PID name="MyrtusProxy" mc="Standard.Class" uid="0aaad610-2b13-47db-aed2-9054b0059f0d"/>
+    <PID name="Capabilities" mc="Standard.Class" uid="e0972dc0-834b-409b-8ef0-00c154dc32d8"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

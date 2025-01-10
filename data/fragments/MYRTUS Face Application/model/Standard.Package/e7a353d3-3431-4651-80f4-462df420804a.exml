@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Service Template" version="4">
+  <OBJECT>
+    <ID name="Service Template" mc="Standard.Package" uid="e7a353d3-3431-4651-80f4-462df420804a"/>
+    <PID name="Tosca mini standard library" mc="Standard.Package" uid="f675667d-7178-48bc-a561-a64fef26e55c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Service Template]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TServiceTemplate" mc="Infrastructure.Stereotype" uid="09682faf-27b8-4c4b-a5e6-22fe18303161"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Service Template diagram" mc="Standard.StaticDiagram" uid="be97f389-4baa-458a-9391-737378a37fd8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

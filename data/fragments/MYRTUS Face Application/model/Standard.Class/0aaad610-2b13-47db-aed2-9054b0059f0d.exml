@@ -16,8 +16,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="«TRequirementDefiniton» egress" mc="Standard.Class" uid="6493a96f-0cf8-4d08-92be-e514ad592c51"/>
-        <COMPID name="«TCapabilityDefinition» WebService" mc="Standard.Class" uid="3694cdf8-3e4f-4f83-8def-53edc5828833"/>
+        <COMPID name="Requirements" mc="Standard.Class" uid="2f1bfddf-a33d-47d0-804c-3917cbf4d101"/>
+        <COMPID name="Capabilities" mc="Standard.Class" uid="e0972dc0-834b-409b-8ef0-00c154dc32d8"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
