@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TCapabilityDefinition» WebService" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CameraFeed.WebService" version="4">
   <OBJECT>
-    <ID name="«TCapabilityDefinition» WebService" mc="Standard.Class" uid="3585267f-c139-40a1-801e-9d40826c3640"/>
+    <ID name="CameraFeed.WebService" mc="Standard.Class" uid="3585267f-c139-40a1-801e-9d40826c3640"/>
     <PID name="Capabilities" mc="Standard.Class" uid="82ff99f1-7abf-4249-bd29-abb734b5df66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,54 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[«TCapabilityDefinition» WebService]]></ATT>
+      <ATT name="Name"><![CDATA[CameraFeed.WebService]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Extension">
         <FOREIGNID name="TCapabilityDefinition" mc="Infrastructure.Stereotype" uid="92f8cb40-9498-4759-9c75-6b4df72de355"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="capabilityType" mc="Infrastructure.Dependency" uid="baf7342d-1043-4be7-a5f6-579da2c39fec"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[capabilityType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="tosca.capabilities.Endpoint" mc="Standard.Class" uid="0668f807-a762-4ca0-bf74-fc9114ded798"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="65491dac-0f5d-4c25-9d90-41bb8b1bc4b7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="27ff8f39-090e-4128-abbf-0278c4d5da48"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[capabilityType]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Properties">
         <OBJECT>
           <ID name="92f8cb40-9498-4759-9c75-6b4df72de355" mc="Infrastructure.TypedPropertyTable" uid="a3e716b5-9624-49b8-8b66-44a859c0413d"/>

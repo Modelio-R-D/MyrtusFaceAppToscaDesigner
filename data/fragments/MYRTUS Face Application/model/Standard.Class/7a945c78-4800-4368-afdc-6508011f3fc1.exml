@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TArtifactTemplate» key" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="key" version="4">
   <OBJECT>
-    <ID name="«TArtifactTemplate» key" mc="Standard.Class" uid="7a945c78-4800-4368-afdc-6508011f3fc1"/>
+    <ID name="key" mc="Standard.Class" uid="7a945c78-4800-4368-afdc-6508011f3fc1"/>
     <PID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,30 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[«TArtifactTemplate» key]]></ATT>
+      <ATT name="Name"><![CDATA[key]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Extension">
         <FOREIGNID name="TArtifactTemplate" mc="Infrastructure.Stereotype" uid="1d06ae6d-75d2-4000-b80d-44d93145c847"/>
       </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="1d06ae6d-75d2-4000-b80d-44d93145c847" mc="Infrastructure.TypedPropertyTable" uid="24291bf9-2039-4af9-9d72-1ddd95140e80"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[1d06ae6d-75d2-4000-b80d-44d93145c847]]></ATT>
+            <ATT name="Content"><![CDATA[#Fri Jan 10 22:08:36 GMT-05:00 2025
+artifactReferences=
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TArtifactTemplateTable" mc="Infrastructure.PropertyTableDefinition" uid="24781014-4a24-4881-a241-cd3009b1c9d1"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
