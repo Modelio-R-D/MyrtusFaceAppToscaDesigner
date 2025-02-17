@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TRequirement» egress2" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="egress2" version="4">
   <OBJECT>
-    <ID name="«TRequirement» egress2" mc="Standard.Class" uid="c531124e-e7ac-4314-b42a-bad874eb833a"/>
-    <PID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+    <ID name="egress2" mc="Standard.Class" uid="c531124e-e7ac-4314-b42a-bad874eb833a"/>
+    <PID name="Requirements" mc="Standard.Class" uid="4b45700c-83c2-4b46-b35b-65cb5cb98fd0"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,12 +11,11 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[«TRequirement» egress2]]></ATT>
+      <ATT name="Name"><![CDATA[egress2]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Extension">
-        <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="2a38f650-7f59-41a7-a928-ac9cbe326f84"/>
         <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="f0ddd3c2-c7ec-4156-84b0-d31b76098b17"/>
       </LINK>
       <COMP relation="DependsOnDependency">
@@ -68,7 +67,7 @@
           <DEPENDENCIES>
             <LINK relation="DependsOn">
               <REFOBJ>
-                <ID name="connectsOn" mc="Standard.Association" uid="85966c06-93f9-4b8a-a5f0-2614840b730e"/>
+                <ID name="con_ConnectsTo_1" mc="Standard.Association" uid="85966c06-93f9-4b8a-a5f0-2614840b730e"/>
               </REFOBJ>
             </LINK>
             <LINK relation="Extension">
@@ -87,6 +86,45 @@
                       <ID name="" mc="Infrastructure.TagParameter" uid="ca4f6d74-5b56-405a-a4be-529b62a1ecc0"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[relationship]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="capability" mc="Infrastructure.Dependency" uid="8a878c3c-7f63-4a12-aace-456a13bd6ad9"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[capability]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="FaceDetectionService" mc="Standard.Class" uid="6d331bbc-272a-444e-8c75-6450bbec09bf"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="369be44c-fb54-42e4-846c-ab7798355344"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="db3ebb5a-f862-43c9-965a-6bdd8947df3c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[capability]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>

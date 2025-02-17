@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="0c9f4cc0-86b0-4ace-a59e-efadf358da5e"/>
+                <ID name="" mc="Infrastructure.Note" uid="523080e6-6a5e-4c21-8ecc-347f545533a4"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.constraints.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="61707cf3-a63c-483d-9407-e921e8f56990"/>
+                <ID name="" mc="Infrastructure.Note" uid="3bb94c6f-57e3-48e7-afc8-6c0e95b0fe33"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.lowerBound.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="30eb4d85-af24-466d-b98e-dc1e19089805"/>
+                <ID name="" mc="Infrastructure.Note" uid="ba2285e9-afb9-414e-80e3-dd0a97f6f06e"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.upperBound.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -100,22 +100,22 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="valid_source_tyoes" mc="Infrastructure.PropertyDefinition" uid="e012d64d-3433-419e-a7b1-62e1cd38891a"/>
+          <ID name="validSourceType" mc="Infrastructure.PropertyDefinition" uid="58a9cdcd-b57e-4a9e-bbd1-d353e9f42b56"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[valid_source_tyoes]]></ATT>
+            <ATT name="Name"><![CDATA[validSourceType]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="MultiElement" mc="Infrastructure.PropertyType" uid="1bdf9f87-e9ad-4849-ab22-c25147e8d00c"/>
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="536f4cfd-01e4-48b9-944d-ae14e081b5b6"/>
+                <ID name="" mc="Infrastructure.Note" uid="c077c2a9-188b-4844-82a9-630b1d408bca"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.valid_source_tyoes.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.validSourceType.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

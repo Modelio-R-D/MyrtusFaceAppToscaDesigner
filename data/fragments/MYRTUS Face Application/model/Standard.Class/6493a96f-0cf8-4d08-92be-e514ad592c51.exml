@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TRequirementDefinition» egress" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="egress" version="4">
   <OBJECT>
-    <ID name="«TRequirementDefinition» egress" mc="Standard.Class" uid="6493a96f-0cf8-4d08-92be-e514ad592c51"/>
+    <ID name="egress" mc="Standard.Class" uid="6493a96f-0cf8-4d08-92be-e514ad592c51"/>
     <PID name="Requirements" mc="Standard.Class" uid="2f1bfddf-a33d-47d0-804c-3917cbf4d101"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[«TRequirementDefinition» egress]]></ATT>
+      <ATT name="Name"><![CDATA[egress]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -66,7 +66,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <FOREIGNID name="connectTo" mc="Standard.Class" uid="f729282f-5d09-4f42-bebe-bbeab2bab145"/>
+              <FOREIGNID name="connectsTo" mc="Standard.Class" uid="f729282f-5d09-4f42-bebe-bbeab2bab145"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
@@ -98,21 +98,21 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="capability" mc="Infrastructure.Dependency" uid="aae08bab-6b35-432d-9119-b0bd94355444"/>
+          <ID name="capability" mc="Infrastructure.Dependency" uid="ab1a903c-6b7b-4cde-971a-eab7bdcb93fa"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[capability]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="tosca.capabilities.Endpoint" mc="Standard.Class" uid="0668f807-a762-4ca0-bf74-fc9114ded798"/>
+              <FOREIGNID name="Endpoint" mc="Standard.Class" uid="6564ec21-c0a9-4da0-8910-93e4d7aca774"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
             </LINK>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="ddfabb29-6bce-4b9d-b8e5-6c66c8d93abf"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="f67722c3-afa1-4e5f-a385-86da13a659b8"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -120,7 +120,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Actual">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="012ac851-a7a3-408c-b010-1c80bca17ee6"/>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="6ed15610-ba78-4162-9813-f3cd4b9cdde4"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[capability]]></ATT>
                         <ATT name="status">1970354901745664</ATT>

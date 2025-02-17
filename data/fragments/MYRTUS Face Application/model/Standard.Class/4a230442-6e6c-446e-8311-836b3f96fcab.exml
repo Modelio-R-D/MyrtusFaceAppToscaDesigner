@@ -43,10 +43,37 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="displayName" mc="Standard.Attribute" uid="fd42f39a-5ea8-4d42-bfd3-ec9c3f59ce9c"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[FaceDetection]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[displayName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="Metadata" mc="Infrastructure.Stereotype" uid="d0b4eda0-d876-4c48-8bc7-604458678120"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="«TRelationshipTemplate» hostedOn" mc="Standard.AssociationEnd" uid="e0cf55e5-09bf-4872-9d22-d3dfc532c6e6"/>
+          <ID name="hostedOn" mc="Standard.AssociationEnd" uid="e0cf55e5-09bf-4872-9d22-d3dfc532c6e6"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -59,7 +86,7 @@
             <ATT name="Visibility">VisibilityUndefined</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[«TRelationshipTemplate» hostedOn]]></ATT>
+            <ATT name="Name"><![CDATA[hostedOn]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -86,13 +113,13 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="«TRelationshipTemplate» hostedOn" mc="Standard.AssociationEnd" uid="e0cf55e5-09bf-4872-9d22-d3dfc532c6e6"/>
+                    <COMPID name="hostedOn" mc="Standard.AssociationEnd" uid="e0cf55e5-09bf-4872-9d22-d3dfc532c6e6"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="hostedOn" mc="Standard.Association" uid="be3e6c58-d941-4ca7-8950-d7ce9eba2885"/>
+                      <ID name="con_HostedOn_0" mc="Standard.Association" uid="be3e6c58-d941-4ca7-8950-d7ce9eba2885"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[hostedOn]]></ATT>
+                        <ATT name="Name"><![CDATA[con_HostedOn_0]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
@@ -147,7 +174,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="hostedOn" mc="Standard.Association" uid="be3e6c58-d941-4ca7-8950-d7ce9eba2885"/>
+              <COMPID name="con_HostedOn_0" mc="Standard.Association" uid="be3e6c58-d941-4ca7-8950-d7ce9eba2885"/>
             </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
@@ -156,7 +183,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="«TRequirement» host" mc="Standard.Class" uid="5723d02a-9444-4181-add4-48a3f730e24e"/>
+        <COMPID name="Requirements" mc="Standard.Class" uid="d64e597d-8ae8-4f6e-8dbb-3bb2692abe88"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>

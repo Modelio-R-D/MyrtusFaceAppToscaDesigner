@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TArtifactTemplate» fullchain.pem" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fullchain.pem" version="4">
   <OBJECT>
-    <ID name="«TArtifactTemplate» fullchain.pem" mc="Standard.Class" uid="a9458279-bf2c-4d24-9072-ad2bf8d0b421"/>
-    <PID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+    <ID name="fullchain.pem" mc="Standard.Class" uid="a9458279-bf2c-4d24-9072-ad2bf8d0b421"/>
+    <PID name="Deployment Artifacts" mc="Standard.Class" uid="836d433c-05fb-4819-bf47-13b170e996ac"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,12 +11,12 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[«TArtifactTemplate» fullchain.pem]]></ATT>
+      <ATT name="Name"><![CDATA[fullchain.pem]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Extension">
-        <FOREIGNID name="TArtifactTemplate" mc="Infrastructure.Stereotype" uid="1d06ae6d-75d2-4000-b80d-44d93145c847"/>
+        <FOREIGNID name="TDeploymentArtifact" mc="Infrastructure.Stereotype" uid="7c624564-a87e-4058-ab8b-8f6782b68031"/>
       </LINK>
     </DEPENDENCIES>
   </OBJECT>

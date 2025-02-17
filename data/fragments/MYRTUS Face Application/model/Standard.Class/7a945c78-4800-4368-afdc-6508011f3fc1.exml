@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="key" version="4">
   <OBJECT>
     <ID name="key" mc="Standard.Class" uid="7a945c78-4800-4368-afdc-6508011f3fc1"/>
-    <PID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+    <PID name="Deployment Artifacts" mc="Standard.Class" uid="836d433c-05fb-4819-bf47-13b170e996ac"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -16,7 +16,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Extension">
-        <FOREIGNID name="TArtifactTemplate" mc="Infrastructure.Stereotype" uid="1d06ae6d-75d2-4000-b80d-44d93145c847"/>
+        <FOREIGNID name="TDeploymentArtifact" mc="Infrastructure.Stereotype" uid="7c624564-a87e-4058-ab8b-8f6782b68031"/>
       </LINK>
       <COMP relation="Properties">
         <OBJECT>
@@ -31,6 +31,23 @@ artifactReferences=
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="TArtifactTemplateTable" mc="Infrastructure.PropertyTableDefinition" uid="24781014-4a24-4881-a241-cd3009b1c9d1"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="7c624564-a87e-4058-ab8b-8f6782b68031" mc="Infrastructure.TypedPropertyTable" uid="d7b05612-3f20-481f-a284-66c94017eeb0"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[7c624564-a87e-4058-ab8b-8f6782b68031]]></ATT>
+            <ATT name="Content"><![CDATA[#Tue Feb 11 16:19:30 CET 2025
+Deploy_path=
+File=
+artifactType=
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TDeploymentArtifactTable" mc="Infrastructure.PropertyTableDefinition" uid="e1a47f10-7786-44c4-b602-5f8eb918638d"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

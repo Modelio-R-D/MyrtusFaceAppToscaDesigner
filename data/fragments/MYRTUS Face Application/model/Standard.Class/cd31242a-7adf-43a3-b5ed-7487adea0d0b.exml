@@ -43,10 +43,37 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="displayName" mc="Standard.Attribute" uid="0832137b-06b1-437f-9716-540f6d1aab26"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[CameraFeed]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[displayName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="Metadata" mc="Infrastructure.Stereotype" uid="d0b4eda0-d876-4c48-8bc7-604458678120"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="«TRelationshipTemplate» hostedOn" mc="Standard.AssociationEnd" uid="13d4fcca-aef7-4a31-8189-5d727cb580f8"/>
+          <ID name="hostedOn" mc="Standard.AssociationEnd" uid="13d4fcca-aef7-4a31-8189-5d727cb580f8"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -59,7 +86,7 @@
             <ATT name="Visibility">VisibilityUndefined</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[«TRelationshipTemplate» hostedOn]]></ATT>
+            <ATT name="Name"><![CDATA[hostedOn]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -86,13 +113,13 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="«TRelationshipTemplate» hostedOn" mc="Standard.AssociationEnd" uid="13d4fcca-aef7-4a31-8189-5d727cb580f8"/>
+                    <COMPID name="hostedOn" mc="Standard.AssociationEnd" uid="13d4fcca-aef7-4a31-8189-5d727cb580f8"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="hostedOn" mc="Standard.Association" uid="bf720cb9-74b5-4a7d-bffb-990fe9f79668"/>
+                      <ID name="con_HostedOn_1" mc="Standard.Association" uid="bf720cb9-74b5-4a7d-bffb-990fe9f79668"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[hostedOn]]></ATT>
+                        <ATT name="Name"><![CDATA[con_HostedOn_1]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
@@ -147,7 +174,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="hostedOn" mc="Standard.Association" uid="bf720cb9-74b5-4a7d-bffb-990fe9f79668"/>
+              <COMPID name="con_HostedOn_1" mc="Standard.Association" uid="bf720cb9-74b5-4a7d-bffb-990fe9f79668"/>
             </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
@@ -156,7 +183,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="«TRequirement» host" mc="Standard.Class" uid="9f012923-6410-44d0-89de-e6c473828356"/>
+        <COMPID name="Requirements" mc="Standard.Class" uid="1d8a39b1-e595-4ce4-9565-644631e9bb69"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>
@@ -188,6 +215,45 @@
                       <ID name="" mc="Infrastructure.TagParameter" uid="01576f47-6797-45f6-ac66-f7df77d08c86"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[nodeType]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="requirements" mc="Infrastructure.Dependency" uid="fd90b6b8-e0a1-4102-a38d-528c53e3fcf3"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[requirements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Requirements" mc="Standard.Class" uid="1d8a39b1-e595-4ce4-9565-644631e9bb69"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="5914f4cf-816a-4aa0-8c7b-43c29bf55a64"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="c5d07c48-a838-4391-9f4d-0d930c2c4d32"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[requirements]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>

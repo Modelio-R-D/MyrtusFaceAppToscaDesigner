@@ -18,8 +18,8 @@
       <COMP relation="OwnedElement">
         <COMPID name="Myrtus_Workstation_1" mc="Standard.Class" uid="fb14c487-db69-4067-8ea2-a2f777cde726"/>
         <COMPID name="MyrtusFaceDetectionService_0" mc="Standard.Class" uid="4a230442-6e6c-446e-8311-836b3f96fcab"/>
-        <COMPID name="MyrtusCameraFeed_0" mc="Standard.Class" uid="cd31242a-7adf-43a3-b5ed-7487adea0d0b"/>
         <COMPID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+        <COMPID name="MyrtusCameraFeed_0" mc="Standard.Class" uid="cd31242a-7adf-43a3-b5ed-7487adea0d0b"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TTopologyTemplate" mc="Infrastructure.Stereotype" uid="a52f433c-cf19-4033-99c2-81b4af708744"/>

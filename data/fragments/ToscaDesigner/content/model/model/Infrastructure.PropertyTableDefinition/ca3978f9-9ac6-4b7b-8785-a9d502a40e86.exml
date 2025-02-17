@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="bc56c503-7d7a-4755-9714-62391cfb6646"/>
+                <ID name="" mc="Infrastructure.Note" uid="9151d41f-2c9d-4ce6-8a1f-63f6eea2450e"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TPolicyTable.policyRef.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -40,7 +40,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="description" mc="Infrastructure.PropertyDefinition" uid="deeae8fc-fd5b-4bc5-9648-b895139a448c"/>
+          <ID name="description" mc="Infrastructure.PropertyDefinition" uid="0c7da924-89ac-4530-b76e-fbbc0034f15e"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="29b9e2e9-b62d-42eb-b6af-cfb7588d3544"/>
+                <ID name="" mc="Infrastructure.Note" uid="d22f7f0d-cbb8-4ac2-a9a2-7c57d3b83c63"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TPolicyTable.description.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

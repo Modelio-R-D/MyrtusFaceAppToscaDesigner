@@ -11,7 +11,6 @@
     <DEPENDENCIES>
       <COMP relation="Model">
         <COMPID name="MYRTUS_FaceApplication" mc="Standard.Package" uid="f3150afd-16fe-4a31-bb24-37dffb63e797"/>
-        <COMPID name="Tosca" mc="Standard.Package" uid="f675667d-7178-48bc-a561-a64fef26e55c"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="MYRTUS Face Application" mc="Infrastructure.DiagramSet" uid="8ae2c1b9-6220-4530-b8ea-7fed4f4eeaf8"/>

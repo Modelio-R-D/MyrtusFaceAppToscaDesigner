@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="«TRequirementDefinition» connects" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="connects" version="4">
   <OBJECT>
-    <ID name="«TRequirementDefinition» connects" mc="Standard.Class" uid="47705645-5534-4954-b5ca-3daad6e842d1"/>
+    <ID name="connects" mc="Standard.Class" uid="47705645-5534-4954-b5ca-3daad6e842d1"/>
     <PID name="Requirements" mc="Standard.Class" uid="fbca3474-b0e6-4d6a-8596-f1a5c967ab6c"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[«TRequirementDefinition» connects]]></ATT>
+      <ATT name="Name"><![CDATA[connects]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -20,21 +20,21 @@
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="capability" mc="Infrastructure.Dependency" uid="e140ff5d-1693-499e-8372-6c14a855911a"/>
+          <ID name="capability" mc="Infrastructure.Dependency" uid="1b1b7968-585b-4a9b-9e26-2869811c042e"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[capability]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="tosca.capabilities.Endpoint" mc="Standard.Class" uid="0668f807-a762-4ca0-bf74-fc9114ded798"/>
+              <FOREIGNID name="Endpoint" mc="Standard.Class" uid="6564ec21-c0a9-4da0-8910-93e4d7aca774"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
             </LINK>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="73bfbf19-8874-450c-aceb-498987cd4b76"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="5d00fefa-c51e-4d7b-8f23-973a8d269e0a"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -42,7 +42,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Actual">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="54514723-ef16-45d7-8c81-730574946ac2"/>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="72a9e487-eef5-493d-9cee-cc59c3fc0cb6"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[capability]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -59,21 +59,21 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="relationshipType" mc="Infrastructure.Dependency" uid="86489cc8-4b7e-43bb-8d22-986f11d6c923"/>
+          <ID name="relationshipType" mc="Infrastructure.Dependency" uid="b9623ff7-644e-4127-8fda-68cd69af386f"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[relationshipType]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="tosca.relationships.connectTo" mc="Standard.Class" uid="57ec1754-57fe-4c85-b6e4-6f51a5b5b465"/>
+              <FOREIGNID name="connectsTo" mc="Standard.Class" uid="f729282f-5d09-4f42-bebe-bbeab2bab145"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
             </LINK>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="1983e3fe-62b2-400e-85b1-0a34651e1d22"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="65aa25d8-ea56-42b0-938e-f98a197e5bf2"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -81,7 +81,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Actual">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="ed98b94e-31f5-4f05-a606-4148ffb1063a"/>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="1173686b-8ecd-4274-bb4c-3a92bc7567d7"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[relationshipType]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -95,6 +95,24 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="2637c4bd-ca93-4012-82ea-8ef2ba5ca444" mc="Infrastructure.TypedPropertyTable" uid="dcd1a36f-86bb-4a33-a2cc-8ec2ccaf852c"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[2637c4bd-ca93-4012-82ea-8ef2ba5ca444]]></ATT>
+            <ATT name="Content"><![CDATA[#Wed Feb 12 17:41:09 CET 2025
+lowerBound=-1
+upperBound=0
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TRequirementDefinitionTable" mc="Infrastructure.PropertyTableDefinition" uid="620d9ee4-1487-4477-9f9c-f46321456d98"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

@@ -11,7 +11,7 @@
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="f379bf1f-47b4-49c9-9128-d24c4a0c3e47"/>
+          <ID name="" mc="Infrastructure.Note" uid="560c7a77-24b1-49d6-8c65-a3e4c4dcdf5a"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[%propertytypePlanType.description]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Deployment Artifacts" version="4">
+  <OBJECT>
+    <ID name="Deployment Artifacts" mc="Standard.Class" uid="836d433c-05fb-4819-bf47-13b170e996ac"/>
+    <PID name="Myrtus_Proxy_0" mc="Standard.Class" uid="cfdd97b1-fe01-44d5-b97f-0b22a6f146fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Deployment Artifacts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="fullchain.pem" mc="Standard.Class" uid="a9458279-bf2c-4d24-9072-ad2bf8d0b421"/>
+        <COMPID name="key" mc="Standard.Class" uid="7a945c78-4800-4368-afdc-6508011f3fc1"/>
+        <COMPID name="nginx.conf" mc="Standard.Class" uid="539e739e-c1f3-4d05-9b2e-8732eee2073a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TDeploymentArtifacts" mc="Infrastructure.Stereotype" uid="168ae3ca-0258-4eed-afa5-696caa1bab53"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
