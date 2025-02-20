@@ -18,6 +18,66 @@
       <LINK relation="Extension">
         <FOREIGNID name="TDeploymentArtifact" mc="Infrastructure.Stereotype" uid="7c624564-a87e-4058-ab8b-8f6782b68031"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="type" mc="Infrastructure.Dependency" uid="f48d12ca-33ec-4ed6-88d4-c9ccd37dbb62"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[type]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <FOREIGNID name="File" mc="Standard.Class" uid="c97c4844-b16d-4e32-930c-05ab54f348ef"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="6514769e-3056-42db-9d40-8f4a2bcef873"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="f47b965a-61f8-4f46-881b-fd2228d609d7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[type]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="7c624564-a87e-4058-ab8b-8f6782b68031" mc="Infrastructure.TypedPropertyTable" uid="2f3b278c-2370-4b26-8265-09dc4340343b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[7c624564-a87e-4058-ab8b-8f6782b68031]]></ATT>
+            <ATT name="Content"><![CDATA[#Mon Feb 17 15:01:44 CET 2025
+deploy_path=/etc/nginx/conf.d/default.conf
+description=
+file=/servicetemplates/example.eu.myrtus.servicetemplates/MyrtusFace_Application_w1-wip2/files/MyrtusProxy_w1-wip1_0/nginx.conf/nginx.conf
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TDeploymentArtifactTable" mc="Infrastructure.PropertyTableDefinition" uid="e1a47f10-7786-44c4-b602-5f8eb918638d"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

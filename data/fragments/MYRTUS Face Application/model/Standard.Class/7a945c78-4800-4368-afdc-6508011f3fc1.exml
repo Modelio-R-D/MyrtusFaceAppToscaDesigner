@@ -18,6 +18,47 @@
       <LINK relation="Extension">
         <FOREIGNID name="TDeploymentArtifact" mc="Infrastructure.Stereotype" uid="7c624564-a87e-4058-ab8b-8f6782b68031"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="type" mc="Infrastructure.Dependency" uid="4d896aa0-413e-431a-8601-1416db7581fe"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[type]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <FOREIGNID name="File" mc="Standard.Class" uid="c97c4844-b16d-4e32-930c-05ab54f348ef"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="98f6de9b-c0f5-4a07-b7bf-a93f213fd8a5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="c71bd794-9a3d-41fd-a92e-de88b550d14a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[type]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Properties">
         <OBJECT>
           <ID name="1d06ae6d-75d2-4000-b80d-44d93145c847" mc="Infrastructure.TypedPropertyTable" uid="24291bf9-2039-4af9-9d72-1ddd95140e80"/>
@@ -38,10 +79,12 @@ artifactReferences=
           <ID name="7c624564-a87e-4058-ab8b-8f6782b68031" mc="Infrastructure.TypedPropertyTable" uid="d7b05612-3f20-481f-a284-66c94017eeb0"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[7c624564-a87e-4058-ab8b-8f6782b68031]]></ATT>
-            <ATT name="Content"><![CDATA[#Tue Feb 11 16:19:30 CET 2025
+            <ATT name="Content"><![CDATA[#Mon Feb 17 15:01:12 CET 2025
 Deploy_path=
 File=
 artifactType=
+deploy_path=/certs/privkey.pem
+file=/home/hesi/cert/privkey.pem
 ]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
