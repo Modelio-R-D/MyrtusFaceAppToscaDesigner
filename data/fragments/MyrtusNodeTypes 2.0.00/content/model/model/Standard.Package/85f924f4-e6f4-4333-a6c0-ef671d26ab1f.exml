@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eu.myrtus" version="4">
+  <OBJECT>
+    <ID name="eu.myrtus" mc="Standard.Package" uid="85f924f4-e6f4-4333-a6c0-ef671d26ab1f"/>
+    <PID name="MyrtusNodeTypes" mc="Standard.Package" uid="842c94d5-8877-4915-9afe-a531a57b2f62"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eu.myrtus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MyrtusCompute" mc="Standard.Class" uid="cbd6aa74-06c8-4104-aa01-ff2e56938f91"/>
+        <COMPID name="MyrtusEdgeDevice" mc="Standard.Class" uid="d7af5920-9d84-42a0-8383-ed0c44ab5af7"/>
+        <COMPID name="MyrtusNetwork" mc="Standard.Class" uid="4ab7fb86-9ced-455e-b388-c6c74c6ef1c6"/>
+        <COMPID name="MyrtusAccelerator" mc="Standard.Class" uid="c06c511c-7832-4b26-af0b-5332d7310e7b"/>
+        <COMPID name="MyrtusSWComponent" mc="Standard.Class" uid="d6884a09-2825-41c1-934d-463b12159dab"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ToscaModel" mc="Infrastructure.Stereotype" uid="20565008-115d-4fad-800f-134ab276f611"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

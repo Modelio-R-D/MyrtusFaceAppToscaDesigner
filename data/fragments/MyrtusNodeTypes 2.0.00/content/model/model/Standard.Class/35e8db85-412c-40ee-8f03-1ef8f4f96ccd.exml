@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirements" version="4">
   <OBJECT>
-    <ID name="Requirements" mc="Standard.Class" uid="fbca3474-b0e6-4d6a-8596-f1a5c967ab6c"/>
-    <PID name="MyrtusSWComponent" mc="Standard.Class" uid="a44d3f1b-32db-400f-9c3a-9f9d3a1aa326"/>
+    <ID name="Requirements" mc="Standard.Class" uid="35e8db85-412c-40ee-8f03-1ef8f4f96ccd"/>
+    <PID name="MyrtusAccelerator" mc="Standard.Class" uid="c06c511c-7832-4b26-af0b-5332d7310e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -16,7 +16,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="«TRequirementDefinition» connects" mc="Standard.Class" uid="47705645-5534-4954-b5ca-3daad6e842d1"/>
+        <COMPID name="host" mc="Standard.Class" uid="173d1b52-97a3-4794-b406-689fc4446c42"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TRequirementDefinitionType" mc="Infrastructure.Stereotype" uid="622c76d1-f337-471e-984a-2af659417163"/>

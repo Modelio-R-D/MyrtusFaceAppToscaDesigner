@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="402887e6-b0ae-4de7-a820-b617c5fa975b"/>
+                <ID name="" mc="Infrastructure.Note" uid="1c92d9bb-0f75-45e3-8630-7eff648fac10"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TImplementationArtifactTable.artifactRef.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="2b8c9538-659f-403c-ba80-fa59f1001029"/>
+                <ID name="" mc="Infrastructure.Note" uid="f41fbd0a-1d19-4028-9594-3b088b25860e"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TImplementationArtifactTable.artifactType.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="853add2e-5b35-4448-865c-d950ed15a12a"/>
+                <ID name="" mc="Infrastructure.Note" uid="38fad5d0-97f8-42fc-af6e-0273d6acb696"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TImplementationArtifactTable.interfaceName.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -113,7 +113,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="1f6ae9c4-ddc1-4338-a4c4-6c439ee90229"/>
+                <ID name="" mc="Infrastructure.Note" uid="e81bbe96-64a5-48cd-a0b0-b259016443f8"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TImplementationArtifactTable.operationName.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

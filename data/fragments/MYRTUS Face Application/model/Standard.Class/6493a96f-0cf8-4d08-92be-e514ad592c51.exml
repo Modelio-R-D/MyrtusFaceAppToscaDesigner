@@ -27,7 +27,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="MyrtusSWComponent" mc="Standard.Class" uid="a44d3f1b-32db-400f-9c3a-9f9d3a1aa326"/>
+              <FOREIGNID name="MyrtusSWComponent" mc="Standard.Class" uid="d6884a09-2825-41c1-934d-463b12159dab"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>

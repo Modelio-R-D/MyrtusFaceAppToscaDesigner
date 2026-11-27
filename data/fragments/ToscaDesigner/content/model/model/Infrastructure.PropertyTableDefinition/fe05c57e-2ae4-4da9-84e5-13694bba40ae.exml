@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="a157f1bc-883b-4dca-aab0-b6a39de3e7b5"/>
+                <ID name="" mc="Infrastructure.Note" uid="afe981c1-db17-4604-b11f-3a0c85ed49e0"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.NodeOperationTypeTable.interfaceName.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="025f463d-4b12-4cbd-b9ae-36f367a6c34d"/>
+                <ID name="" mc="Infrastructure.Note" uid="c5ae50f0-8349-4bed-be86-fb152cead27b"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.NodeOperationTypeTable.nodeRef.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -70,11 +70,11 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="opertationName" mc="Infrastructure.PropertyDefinition" uid="89df8b10-e13e-409c-afd2-121788c6a20e"/>
+          <ID name="operationName" mc="Infrastructure.PropertyDefinition" uid="89df8b10-e13e-409c-afd2-121788c6a20e"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[opertationName]]></ATT>
+            <ATT name="Name"><![CDATA[operationName]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -83,9 +83,9 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="aa907c8c-599c-4f12-a8a1-96d5fbf252d0"/>
+                <ID name="" mc="Infrastructure.Note" uid="1001c309-d236-46de-b2eb-1aea766a487e"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.NodeOperationTypeTable.opertationName.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.NodeOperationTypeTable.operationName.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

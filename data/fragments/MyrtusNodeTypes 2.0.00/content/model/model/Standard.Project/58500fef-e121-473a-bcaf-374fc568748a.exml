@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MyrtusNodeTypes" version="4">
+  <OBJECT>
+    <ID name="MyrtusNodeTypes" mc="Standard.Project" uid="58500fef-e121-473a-bcaf-374fc568748a"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[MyrtusNodeTypes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="myrtusnodetypes" mc="Standard.Package" uid="e9efd036-b32b-4424-a2e4-d65cb7feb12c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

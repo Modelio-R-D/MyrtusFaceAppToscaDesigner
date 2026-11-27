@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="dockerImage" mc="Standard.Attribute" uid="a8294b2c-33d3-452e-a23c-b47bd1cb1a8c"/>
+          <ID name="docker_image" mc="Standard.Attribute" uid="a8294b2c-33d3-452e-a23c-b47bd1cb1a8c"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"><![CDATA[thebigpotatoe/face-recognition-docker]]></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[dockerImage]]></ATT>
+            <ATT name="Name"><![CDATA[docker_image]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

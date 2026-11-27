@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<ram-component manifest-version="2.0.02" name="MyrtusNodeTypes" version="2" release="0" clevel="0" modelioVersion="5.4.01" provider="MYRTUS project">
+  <description><![CDATA[]]></description>
+  <dependencies></dependencies>
+  <contributors>
+    <contributor name="ModelerModule" version="9.4.00"/>
+    <contributor name="ToscaDesigner" version="0.0.00"/>
+  </contributors>
+  <metamodels>
+    <metamodel name="Standard" version="2.3.00"/>
+    <metamodel name="Infrastructure" version="2.1.04"/>
+  </metamodels>
+  <roots>
+    <root metaclass="Standard.Project" name="MyrtusNodeTypes" uuid="58500fef-e121-473a-bcaf-374fc568748a"/>
+  </roots>
+</ram-component>

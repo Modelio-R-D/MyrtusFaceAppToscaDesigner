@@ -15,11 +15,9 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="FaceApplication" mc="Standard.Class" uid="48830228-e76b-4de2-9d32-848f9536a78e"/>
-        <COMPID name="Myrtus-Workstation" mc="Standard.Class" uid="f74d38f2-4610-4dcc-ae68-39f61b5d7a24"/>
         <COMPID name="MyrtusCameraFeed" mc="Standard.Class" uid="bb6ce0c1-fc47-47cc-adb3-98f42dca729e"/>
         <COMPID name="MyrtusFaceDetectionService" mc="Standard.Class" uid="06c7efe7-9d60-41d5-a738-cbf137fb8993"/>
         <COMPID name="MyrtusProxy" mc="Standard.Class" uid="0aaad610-2b13-47db-aed2-9054b0059f0d"/>
-        <COMPID name="MyrtusSWComponent" mc="Standard.Class" uid="a44d3f1b-32db-400f-9c3a-9f9d3a1aa326"/>
         <COMPID name="Face_Application" mc="Standard.Class" uid="72c82f33-5224-4c77-88d6-3268f4793747"/>
       </COMP>
       <LINK relation="Extension">

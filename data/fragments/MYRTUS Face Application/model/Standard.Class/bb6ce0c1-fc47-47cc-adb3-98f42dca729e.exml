@@ -31,7 +31,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="MyrtusSWComponent" mc="Standard.Class" uid="a44d3f1b-32db-400f-9c3a-9f9d3a1aa326"/>
+              <FOREIGNID name="MyrtusSWComponent" mc="Standard.Class" uid="d6884a09-2825-41c1-934d-463b12159dab"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
@@ -68,9 +68,9 @@
           <ID name="fecd81a5-da41-4a07-a507-6bfaf5bbadd2" mc="Infrastructure.TypedPropertyTable" uid="15be570e-c450-44df-8b27-94558217a412"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[fecd81a5-da41-4a07-a507-6bfaf5bbadd2]]></ATT>
-            <ATT name="Content"><![CDATA[#Tue Aug 06 23:12:39 CEST 2024
+            <ATT name="Content"><![CDATA[#Fri Nov 27 11:22:30 CET 2026
 targetNamespace=example.eu.myrtus.nodetypes
-derivedFrom=example.eu.myrtus.nodetypes.MyrtusSWComponent
+derivedFrom=eu.myrtus.MyrtusSWComponent
 final=false
 abstract=false
 ]]></ATT>
