@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="b0af892e-d53c-4a5c-aee4-55eae038752e"/>
+                <ID name="" mc="Infrastructure.Note" uid="d7f7b1c7-ede2-4409-8fa2-78569886babc"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.constraints.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="d3f95c03-3928-4631-841e-db97b0d6c62f"/>
+                <ID name="" mc="Infrastructure.Note" uid="778f584b-75c5-4f7d-9d52-b543877a66e1"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.lowerBound.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="eab8c395-b33e-489b-8d3e-1b014bbafeef"/>
+                <ID name="" mc="Infrastructure.Note" uid="d6f0d529-00ed-4a39-aec3-080f52c0b87d"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TCapabilityDefinitionTable.upperBound.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

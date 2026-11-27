@@ -27,10 +27,47 @@
         <COMPID name="PropertiesType" mc="Infrastructure.PropertyType" uid="54a232af-cb92-453f-aab9-6aa67c0212cf"/>
         <COMPID name="SourceElementType" mc="Infrastructure.PropertyType" uid="d01dabe6-4313-46dc-bde2-187cd2db4d4e"/>
         <COMPID name="TargetElementType" mc="Infrastructure.PropertyType" uid="c715be72-156f-4239-b2c8-2f642539a7c6"/>
+        <COMPID name="ToscaVersion" mc="Infrastructure.EnumeratedPropertyType" uid="31269299-9c56-408f-9bcd-13b162762ecf"/>
       </COMP>
       <COMP relation="OwnedProfile">
         <COMPID name="Automatic" mc="Infrastructure.Profile" uid="72c19ac1-0189-4db1-a982-dbaa92e1cfd5"/>
         <COMPID name="Tosca" mc="Infrastructure.Profile" uid="052601e7-dbd7-42a1-9f15-ca5eaf0707f8"/>
+      </COMP>
+      <COMP relation="ModuleParameter">
+        <OBJECT>
+          <ID name="ToscaVersion" mc="Infrastructure.ModuleParameter" uid="2901bc87-3366-4f5a-b97e-59e7af6a1ea7"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_ENUM</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"><![CDATA[1.3]]></ATT>
+            <ATT name="Name"><![CDATA[ToscaVersion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="EnumType">
+              <ID name="ToscaVersion" mc="Infrastructure.EnumeratedPropertyType" uid="31269299-9c56-408f-9bcd-13b162762ecf"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Tosca2SimpleProfile" mc="Infrastructure.ModuleParameter" uid="d9fab89f-9d97-49f1-9aa9-2cd8b20405c0"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"><![CDATA[org.oasis-open.tosca.simple:2.0]]></ATT>
+            <ATT name="Name"><![CDATA[Tosca2SimpleProfile]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
